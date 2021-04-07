@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>CONFEITARIA DA THATI</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Marcelo Bentes" />
+		<meta name="keywords" content="CONFEITARIA, doces, salgados, bolos, tortas, thati, CONFEITARIA em brasilia, encomendas de doces, kit festa" />
+		<meta name="description" content="Confeitaria de Doces e Salgados e Cafeteria" />
+
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+	<body >
+		<header>
+			<img src="img/banner2.png"  alt="banner com fundo laranja escrito Confeitaria e cafeteira Thati, com imagem de uma xícara de café e bolo"/>
+		</header>	
+		<nav>		
+			<a class="a-menu" href="index.html"> HOME </a>
+			<a class="a-menu" href="#pag-agendamento"> AGENDAMENTOS </a>
+			<a class="a-menu" href="index.html#pag-pedidos"> PEDIDOS </a>
+			<a class="a-menu" href="index.html#pag-kitfesta"> KITFESTA</a>
+		</nav>	
+		
+		<section id="pag2-agendamento">
+			<h1 >Pedidos</h1>
+					
+			<p >Faça seu cadastro e adicione seu pedido.</p>
+			<form name="" method="" action="nome.txt">
+				<label for="nome">Nome:</label>
+				<input id="nome" type="text" name="Nome_Completo" size="52" placeholder="Digite seu Nome Completo" required autofocus />
+
+				<label for="email">E-mail:</label>
+				<input id="email" type="email" name="email"  placeholder="exemplo@email.com" required />
+				
+				<label for="senha">Senha:</label>
+				<input id="senha" type="password" name="senha"  placeholder="somente números">
+				
+				<label for="celular">Celular:</label>
+				<input id="celular" type="tel" name="celular"  placeholder="(99)99999-9999" />
+				<div id="data-hora">
+					<div>
+						<label for="data">Data:</label>
+						<input id="data" type="date" name="date" required>
+					</div>
+					<div>
+						<label for="hora">Hora: </label>
+						<input id="hora" type="time" name="hora" required>
+					</div>	
+				</div>
+				<fieldset>
+					<legend>Gênero:</legend>
+					<input id="masc" type="radio" name="genero" value="masc"/><label for="masc">Masculino</label><br/>
+					<input id="fem" type="radio" name="genero" value="fem"/> <label for="fem">Feminino</label>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Opções:</legend>
+					<input id="bebidas" type="checkbox" name="bebidas" value="bebidas"><label for="bebidas">Bebidas</label><br/>
+					<input id="salgados" type="checkbox" name="salgados" value="salgados"><label for="salgados">Salgados</label><br/>
+					<input id="doces" type="checkbox" name="doces" value="doces"><label for="doces">Doces</label><br/>
+					<input id="kitfesta" type="checkbox" name="kitfesta" value="kitfesta"><label for="kitfesta">KitFesta</label><br/>
+				</fieldset>
+				
+				<label for="msg">Mensagem:</label><br/>
+				<textarea id="msg" cols="54" rows="4">
+					
+				</textarea>	
+				
+				<div id="form-botoes">
+					<input type="submit" name="btn-agendar" value="CONFIRMAR" />
+					<input type="reset" name="btn-cancelar" value="CANCELAR" />
+				</div>	
+			</form>	
+		</section>	
+
+
+
+
+	<footer>
+		<p>Desenvolvido por <a href="http://instagram.com/marcelo_marmut" target="_blank">Marcelo Bentes</a> - 2020</p>	
+	</footer>
+	</body>
+</html>
